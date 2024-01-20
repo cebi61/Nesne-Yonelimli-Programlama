@@ -49,8 +49,8 @@ yonetici1 = Yonetici("Metin","Ali",10000)
 yonetici2 = Yonetici("Feyyaz","Beşiktaş",11000,[Yazilimci1,Yazilimci2,calisan1])
 # yonetici2.calisanlari_goster()
 
-print(isinstance(yonetici2,Calisan)) #nesnenin o class tan türeyip türemediğine bakıyor
-print(issubclass(Yazilimci,Calisan)) #clasın o clas tan türeyip türemediğine bakıyor 
+# print(isinstance(yonetici2,Calisan)) #nesnenin o class tan türeyip türemediğine bakıyor
+# print(issubclass(Yazilimci,Calisan)) #clasın o clas tan türeyip türemediğine bakıyor 
 
 
 
@@ -61,3 +61,5 @@ print(issubclass(Yazilimci,Calisan)) #clasın o clas tan türeyip türemediğine
 # print("****************")
 # yonetici1.calisan_sil(calisan1)
 # yonetici1.calisanlari_goster()
+
+
